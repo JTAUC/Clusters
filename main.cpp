@@ -28,4 +28,7 @@ int main()
 		cout << i + 1 << ": ";
 		ClosestCluster(A, n1, B, n2, p);
 	}
+	
+	delete [] A;
+	delete [] B;
 }
